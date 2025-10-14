@@ -1,0 +1,31 @@
+/* ===================== */
+/* Estilos para Detalle.jsx */
+/* ===================== */
+.detalle-container {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 700px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.detalle-container h1 {
+  color: #2d89ef;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.detalle-container p {
+  font-size: 1.1rem;
+  margin: 0.5rem 0;
+  color: #444;
+}
+
+/* Estado de carga */
+.loading-text {
+  text-align: center;
+  font-size: 1.2rem;
+  color: #777;
+}

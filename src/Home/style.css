@@ -1,0 +1,81 @@
+/* ===================== */
+/* Estilos para Home.jsx */
+/* ===================== */
+
+/* Contenedor de botones */
+.home-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+/* Botones */
+button {
+  background-color: #2d89ef;
+  color: white;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: #1b5fc1;
+  transform: translateY(-2px);
+}
+
+/* Campo de búsqueda */
+.home-search {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.home-search input[type="text"] {
+  width: 90%;
+  max-width: 500px;
+  padding: 0.6rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+/* Lista principal */
+.home-list {
+  list-style: none;
+  padding: 0;
+}
+
+.home-list li {
+  background-color: #fff;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.home-list li:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+/* Texto dentro de las tarjetas */
+.home-list strong {
+  color: #2d3e50;
+}
+
+.home-list p {
+  margin: 0.3rem 0;
+  color: #555;
+}
+
+/* Estado de carga */
+.home-status {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #666;
+}
